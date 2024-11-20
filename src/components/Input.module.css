@@ -1,0 +1,33 @@
+.taskform {
+   justify-content: center;
+   display: flex;
+  
+}
+
+.taskform textarea {
+    resize: none;
+    background: var(--gray-500);
+    width: 39.875rem;
+    height:3.375rem ;
+    color:var(--gray-100);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    outline:1px solid var(--gray-700);
+    border: solid var(--gray-500);
+    overflow:hidden;
+    line-height: 140%;
+    font-size: 1rem;
+}
+
+.taskform textarea:focus{  
+        outline: transparent;
+        box-shadow: 0 0 0 2px var(--purple);
+}
+    
+
+
+
+
+
+
+

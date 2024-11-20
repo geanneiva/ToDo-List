@@ -1,0 +1,35 @@
+.buttonForm button[type=submit] {
+    width:5.625rem ;
+    height:3.25rem ;
+    border-radius: 0.5rem;
+    background: var(--blue-dark);
+    font-weight: bold;
+    color: var(--gray-100);
+    line-height: 140%;
+    font-size:0.875rem ;
+    border:0;
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    transition: background-color 0.1s;
+
+}
+
+.buttonForm button[type=submit]:not(:disabled):hover {
+    background: var(--blue);
+}
+
+.taskformPlus {
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+
+
+
+.taskform button[type=submit]:not(:disabled):hover {
+    background: var(--blue);
+}

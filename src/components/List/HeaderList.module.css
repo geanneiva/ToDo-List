@@ -1,0 +1,52 @@
+.taskList {
+    width: 46rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:1.5rem ;
+    margin-top: 4rem;
+    display: flex;
+ 
+    flex-direction: column;
+    gap:1.5rem;
+}
+.taskList header{
+    height: 1.1875rem;
+    width: 46rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.taskList header .taskCreated {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.taskList header .taskCreated span {
+    width: 1.5625rem;
+    height: 1,1875rem;
+    background: var(--gray-400);
+    padding:2px 8px 2px 8px;
+    color: var(--gray-100);
+    border-radius: 999px;
+    margin-left: 0.5rem;
+}
+
+.taskList header .taskFineshed {
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.taskList header .taskFineshed span {
+    width: 25px;
+    height: 19px;
+    background: var(--gray-400);
+    padding:2px 8px 2px 8px;
+    color: var(--gray-100);
+    border-radius: 999px;
+    margin-left: 8px;
+}
+

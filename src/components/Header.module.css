@@ -1,0 +1,17 @@
+.header {
+    background:var(--gray-700);
+    height: 12.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 4px 4px 1px var(--gray-700);
+    box-shadow: 4px 4px 3px var(--gray-700);
+    
+    
+    
+}
+
+.header img {
+    width: 142px;
+    height: 60px;
+}

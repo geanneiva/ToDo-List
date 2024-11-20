@@ -1,0 +1,117 @@
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+  
+    padding: 1rem;
+    border-radius: 8px;
+  
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-400);
+
+    width: 46rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .task div {
+    display: flex;
+  }
+
+.task button {
+    background: var(--gray-500);
+    color: var(--gray-300);
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 0.05rem;
+    border-radius:0.25rem;
+}
+.task button:hover {
+    color: var(--danger);
+    background-color: var(--gray-400);
+    cursor: pointer;
+}
+
+.task p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 140%;
+    padding-left: 0.5rem;
+    word-break: break-all; 
+    padding-right: 0.5rem; 
+}
+
+.task label {
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    gap: 0.75rem;
+   
+  }
+
+
+
+.task label input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox {
+  border-radius: 100%;
+  height: 1.125rem;
+  width: 1.125rem;
+
+  transition: 0.2s all;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-unchecked {
+  border: 2px solid var(--blue);
+  color: var(--gray-500);
+}
+
+  .checkbox-unchecked:hover {
+    background-color: rgba(30, 111, 159, 0.2);
+    color: rgba(30, 111, 159, 0);
+  }
+
+  .checkbox-checked {
+    border-radius: 100%;
+    height: 1.125rem;
+    width: 1.125rem;
+  
+    transition: 0.2s all;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--purple-dark);
+    background: var(--purple-dark);
+    color: var(--gray-100);
+        
+  }
+
+  .checkbox-checked:hover {
+    border: 2px solid var(--purple);
+    background: var(--purple);
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+    line-height: 140%;
+    user-select: none;
+    color: var(--gray-100);
+    transition: 0.2s all;
+  }
+  
+  .paragraph-checked {
+    text-decoration: line-through;
+    color: var(--gray-300);
+  }
